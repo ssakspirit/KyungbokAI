@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "KyungbokAI RP",
+        "description": "KyungbokAI Resource Pack",
+        "uuid": "825cb6d7-1ad1-44c1-8ad7-5ad6dae7279a",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "1f42540a-d1b8-4015-93f9-00317b841548",
+            "version": [1, 0, 0]
+        }
+    ],
+    "metadata": {
+        "authors": ["stevecoding"]
+    }
+}
