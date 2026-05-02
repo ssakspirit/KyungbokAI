@@ -1,0 +1,43 @@
+{
+    "format_version": "1.12.0",
+    "kyungbokai:number_1": {
+        "textures": "kyungbokai_number_1",
+        "sound": "stone"
+    },
+    "kyungbokai:number_2": {
+        "textures": "kyungbokai_number_2",
+        "sound": "stone"
+    },
+    "kyungbokai:number_3": {
+        "textures": "kyungbokai_number_3",
+        "sound": "stone"
+    },
+    "kyungbokai:number_4": {
+        "textures": "kyungbokai_number_4",
+        "sound": "stone"
+    },
+    "kyungbokai:number_5": {
+        "textures": "kyungbokai_number_5",
+        "sound": "stone"
+    },
+    "kyungbokai:number_6": {
+        "textures": "kyungbokai_number_6",
+        "sound": "stone"
+    },
+    "kyungbokai:number_7": {
+        "textures": "kyungbokai_number_7",
+        "sound": "stone"
+    },
+    "kyungbokai:number_8": {
+        "textures": "kyungbokai_number_8",
+        "sound": "stone"
+    },
+    "kyungbokai:number_9": {
+        "textures": "kyungbokai_number_9",
+        "sound": "stone"
+    },
+    "kyungbokai:number_10": {
+        "textures": "kyungbokai_number_10",
+        "sound": "stone"
+    }
+}
