@@ -1,0 +1,36 @@
+{
+    "resource_pack_name": "KyungbokAI RP",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "kyungbokai_number_1": {
+            "textures": "textures/blocks/number_1"
+        },
+        "kyungbokai_number_2": {
+            "textures": "textures/blocks/number_2"
+        },
+        "kyungbokai_number_3": {
+            "textures": "textures/blocks/number_3"
+        },
+        "kyungbokai_number_4": {
+            "textures": "textures/blocks/number_4"
+        },
+        "kyungbokai_number_5": {
+            "textures": "textures/blocks/number_5"
+        },
+        "kyungbokai_number_6": {
+            "textures": "textures/blocks/number_6"
+        },
+        "kyungbokai_number_7": {
+            "textures": "textures/blocks/number_7"
+        },
+        "kyungbokai_number_8": {
+            "textures": "textures/blocks/number_8"
+        },
+        "kyungbokai_number_9": {
+            "textures": "textures/blocks/number_9"
+        },
+        "kyungbokai_number_10": {
+            "textures": "textures/blocks/number_10"
+        }
+    }
+}

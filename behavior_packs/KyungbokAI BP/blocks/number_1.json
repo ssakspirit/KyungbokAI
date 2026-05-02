@@ -1,0 +1,19 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "kyungbokai:number_1"
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "kyungbokai_number_1",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.0
+            }
+        }
+    }
+}
