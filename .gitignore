@@ -1,0 +1,5 @@
+# Minecraft world DB files (binary, large)
+db/
+
+# Minecraft level data backups
+level.dat_old
