@@ -1,6 +1,8 @@
 {
     "resource_pack_name": "KyungbokAI RP",
     "texture_name": "atlas.terrain",
+    "num_mip_levels": 4,
+    "padding": 8,
     "texture_data": {
         "kyungbokai_number_1": {
             "textures": "textures/blocks/number_1"
