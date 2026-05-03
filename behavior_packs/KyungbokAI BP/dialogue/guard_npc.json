@@ -1,0 +1,41 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "guard_main",
+                "npc_name": "수문장",
+                "text": "§6멈춰라!\n§f나는 §e광화문§f을 지키는 수문장이다.\n\n§e광화문(光化門)§f은 경복궁의 정문으로,\n'왕의 덕이 사방을 밝힌다'는\n뜻을 품고 있다.\n\n§b[활동 안내]\n§fAI 수문장 스킨을 제작하고\n경복궁에 입성할 준비를 하라!\n\n통과하려면 §c실행 코드§f를 알아야 한다.",
+                "buttons": [
+                    {
+                        "name": "실행 코드",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"수문장\"] @initiator guard_code"
+                        ]
+                    },
+                    {
+                        "name": "닫기",
+                        "commands": []
+                    }
+                ]
+            },
+            {
+                "scene_tag": "guard_code",
+                "npc_name": "수문장",
+                "text": "§6수문장이 낮은 목소리로 말한다...\n\n§f실행 코드는\n\n§e§l[ 1 ]\n\n§f이 코드를 메이크코드에 입력하고\n임무를 시작하라!",
+                "buttons": [
+                    {
+                        "name": "← 돌아가기",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"수문장\"] @initiator guard_main"
+                        ]
+                    },
+                    {
+                        "name": "닫기",
+                        "commands": []
+                    }
+                ]
+            }
+        ]
+    }
+}
