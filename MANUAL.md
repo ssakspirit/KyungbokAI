@@ -1,0 +1,58 @@
+# KyungbokAI 개발 매뉴얼
+
+> 제작: stevecoding  
+> 최종 수정: 2026-05-03
+
+---
+
+## 함수 명령어 목록
+
+게임 내에서 `/function <이름>` 으로 실행합니다.
+
+| 명령어 | 실행 방법 | 기능 |
+|--------|-----------|------|
+| `info` | `/function info` | 월드 소개 메시지를 전체 채팅에 출력 |
+| `numberblocks` | `/function numberblocks` | 숫자 블록 1~10을 실행한 플레이어에게 지급 |
+| `open_codebuilder` | `/function open_codebuilder` | 실행한 플레이어에게 코드빌더(AI 확장 튜토리얼) 오픈 |
+| `setnpc` | `/function setnpc` | 이름이 `코드호출기`인 NPC에 `codebuilder_main` 다이얼로그 연결 |
+
+---
+
+## NPC 목록
+
+| NPC 이름 | 연결 다이얼로그 | 역할 |
+|----------|----------------|------|
+| `코드호출기` | `codebuilder_main` | 플레이어가 상호작용하면 "불러오기" 버튼으로 코드빌더(AI 확장 튜토리얼) 실행 |
+
+---
+
+## 다이얼로그 목록
+
+| scene_tag | 파일 | 설명 |
+|-----------|------|------|
+| `codebuilder_main` | `dialogue/codebuilder_npc.json` | 코드호출기 NPC의 기본 대화. 버튼 클릭 시 `codebuilder navigate` 실행 |
+
+---
+
+## 커스텀 블록 목록
+
+| 식별자 | 획득 방법 | 색상 |
+|--------|-----------|------|
+| `kyungbokai:number_1` | `/function numberblocks` 또는 크리에이티브 인벤토리 | 빨강 |
+| `kyungbokai:number_2` | 〃 | 주황 |
+| `kyungbokai:number_3` | 〃 | 노랑 |
+| `kyungbokai:number_4` | 〃 | 초록 |
+| `kyungbokai:number_5` | 〃 | 청록 |
+| `kyungbokai:number_6` | 〃 | 파랑 |
+| `kyungbokai:number_7` | 〃 | 보라 |
+| `kyungbokai:number_8` | 〃 | 분홍 |
+| `kyungbokai:number_9` | 〃 | 갈색 |
+| `kyungbokai:number_10` | 〃 | 슬레이트 |
+
+---
+
+## 참고 사항
+
+- `behavior_packs/KyungbokAI BP` → `development_behavior_packs/KyungbokAI BP` 로 항상 동기화 필요
+- `resource_packs/KyungbokAI RP` → `development_resource_packs/KyungbokAI RP` 로 항상 동기화 필요
+- 코드빌더 URL: `https://minecraft.makecode.com/#tutorial:github:ssakspirit/AI-extension-tutorial/tutorial-examples`
