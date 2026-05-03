@@ -9,11 +9,30 @@
                 "buttons": [
                     {
                         "name": "도와드리겠습니다!",
-                        "commands": []
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"수문장\"] @initiator guard_reflect"
+                        ]
                     },
                     {
                         "name": "닫기",
                         "commands": []
+                    }
+                ]
+            },
+            {
+                "scene_tag": "guard_reflect",
+                "npc_name": "수문장",
+                "text": "§e§l[왕의 성찰 ①]§r\n\n§f고맙소, 용사여.\n임무를 시작하기 전,\n왕께서 성찰을 하나 내리셨소.\n\n§b오늘 Copilot으로 만든\n스킨 이미지의 저작권은\n누구에게 있는가?§f\n\n내가 프롬프트를 작성했으니\n내 창작물인가?\n\n아니면 AI가 그렸으니\nAI 회사의 것인가?\n\nAI로 만든 작품을\n§c'내 작품'§f이라고 발표해도\n되는 것인가?\n\n§7잠시 생각해 보고\n임무를 시작하시오.",
+                "buttons": [
+                    {
+                        "name": "생각해볼게요!",
+                        "commands": []
+                    },
+                    {
+                        "name": "← 돌아가기",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"수문장\"] @initiator guard_main"
+                        ]
                     }
                 ]
             }

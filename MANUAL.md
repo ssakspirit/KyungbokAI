@@ -34,6 +34,7 @@
 |-----------|------|------|
 | `codebuilder_main` | `dialogue/codebuilder_npc.json` | 코드호출기 NPC의 기본 대화. 버튼 클릭 시 `codebuilder navigate` 실행 |
 | `guard_main` | `dialogue/guard_npc.json` | 수문장 NPC 대화. 광화문 소개 + AI 보안 시스템 구축 도움 요청 |
+| `guard_reflect` | `dialogue/guard_npc.json` | 왕의 성찰 ① - AI 저작권 윤리 토론 질문 |
 
 ---
 
