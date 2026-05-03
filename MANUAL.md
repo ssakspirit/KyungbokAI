@@ -54,6 +54,39 @@
 
 ---
 
+## 특수 문자 블록 목록
+
+### 방향 블록
+
+| 식별자 | 색상 |
+|--------|------|
+| `kyungbokai:arrow_up` | 파랑 |
+| `kyungbokai:arrow_down` | 청록 |
+| `kyungbokai:arrow_right` | 초록 |
+| `kyungbokai:arrow_left` | 보라 |
+
+### 논리 기호 블록
+
+| 식별자 | 기호 | 색상 |
+|--------|------|------|
+| `kyungbokai:symbol_question` | ? | 보라 |
+| `kyungbokai:symbol_exclamation` | ! | 주황 |
+| `kyungbokai:symbol_check` | ✓ | 초록 |
+| `kyungbokai:symbol_cross` | ✗ | 빨강 |
+
+### 알파벳 블록
+
+| 식별자 | 색상 |
+|--------|------|
+| `kyungbokai:letter_a` | 빨강 |
+| `kyungbokai:letter_b` | 파랑 |
+| `kyungbokai:letter_c` | 청록 |
+| `kyungbokai:letter_d` | 보라 |
+| `kyungbokai:letter_e` | 황금 |
+| `kyungbokai:letter_f` | 남색 |
+
+---
+
 ## 참고 사항
 
 - `behavior_packs/KyungbokAI BP` → `development_behavior_packs/KyungbokAI BP` 로 항상 동기화 필요

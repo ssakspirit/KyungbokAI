@@ -39,5 +39,61 @@
     "kyungbokai:number_10": {
         "textures": "kyungbokai_number_10",
         "sound": "stone"
+    },
+    "kyungbokai:arrow_up": {
+        "textures": "kyungbokai_arrow_up",
+        "sound": "stone"
+    },
+    "kyungbokai:arrow_down": {
+        "textures": "kyungbokai_arrow_down",
+        "sound": "stone"
+    },
+    "kyungbokai:arrow_right": {
+        "textures": "kyungbokai_arrow_right",
+        "sound": "stone"
+    },
+    "kyungbokai:arrow_left": {
+        "textures": "kyungbokai_arrow_left",
+        "sound": "stone"
+    },
+    "kyungbokai:symbol_question": {
+        "textures": "kyungbokai_symbol_question",
+        "sound": "stone"
+    },
+    "kyungbokai:symbol_exclamation": {
+        "textures": "kyungbokai_symbol_exclamation",
+        "sound": "stone"
+    },
+    "kyungbokai:symbol_check": {
+        "textures": "kyungbokai_symbol_check",
+        "sound": "stone"
+    },
+    "kyungbokai:symbol_cross": {
+        "textures": "kyungbokai_symbol_cross",
+        "sound": "stone"
+    },
+    "kyungbokai:letter_a": {
+        "textures": "kyungbokai_letter_a",
+        "sound": "stone"
+    },
+    "kyungbokai:letter_b": {
+        "textures": "kyungbokai_letter_b",
+        "sound": "stone"
+    },
+    "kyungbokai:letter_c": {
+        "textures": "kyungbokai_letter_c",
+        "sound": "stone"
+    },
+    "kyungbokai:letter_d": {
+        "textures": "kyungbokai_letter_d",
+        "sound": "stone"
+    },
+    "kyungbokai:letter_e": {
+        "textures": "kyungbokai_letter_e",
+        "sound": "stone"
+    },
+    "kyungbokai:letter_f": {
+        "textures": "kyungbokai_letter_f",
+        "sound": "stone"
     }
 }

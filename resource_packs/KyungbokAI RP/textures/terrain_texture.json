@@ -33,6 +33,48 @@
         },
         "kyungbokai_number_10": {
             "textures": "textures/blocks/number_10"
+        },
+        "kyungbokai_arrow_up": {
+            "textures": "textures/blocks/arrow_up"
+        },
+        "kyungbokai_arrow_down": {
+            "textures": "textures/blocks/arrow_down"
+        },
+        "kyungbokai_arrow_right": {
+            "textures": "textures/blocks/arrow_right"
+        },
+        "kyungbokai_arrow_left": {
+            "textures": "textures/blocks/arrow_left"
+        },
+        "kyungbokai_symbol_question": {
+            "textures": "textures/blocks/symbol_question"
+        },
+        "kyungbokai_symbol_exclamation": {
+            "textures": "textures/blocks/symbol_exclamation"
+        },
+        "kyungbokai_symbol_check": {
+            "textures": "textures/blocks/symbol_check"
+        },
+        "kyungbokai_symbol_cross": {
+            "textures": "textures/blocks/symbol_cross"
+        },
+        "kyungbokai_letter_a": {
+            "textures": "textures/blocks/letter_a"
+        },
+        "kyungbokai_letter_b": {
+            "textures": "textures/blocks/letter_b"
+        },
+        "kyungbokai_letter_c": {
+            "textures": "textures/blocks/letter_c"
+        },
+        "kyungbokai_letter_d": {
+            "textures": "textures/blocks/letter_d"
+        },
+        "kyungbokai_letter_e": {
+            "textures": "textures/blocks/letter_e"
+        },
+        "kyungbokai_letter_f": {
+            "textures": "textures/blocks/letter_f"
         }
     }
 }
