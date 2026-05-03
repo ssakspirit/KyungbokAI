@@ -3,7 +3,8 @@
     "minecraft:block": {
         "description": {
             "identifier": "kyungbokai:number_1",
-            "register_to_creative_menu": true
+            "register_to_creative_menu": true,
+            "category": "construction"
         },
         "components": {
             "minecraft:destroy_time": 1.0,
