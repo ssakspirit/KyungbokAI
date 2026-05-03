@@ -14,6 +14,7 @@
 | `info` | `/function info` | 월드 소개 메시지를 전체 채팅에 출력 |
 | `numberblocks` | `/function numberblocks` | 숫자 블록 1~10을 실행한 플레이어에게 지급 |
 | `open_codebuilder` | `/function open_codebuilder` | 실행한 플레이어에게 코드빌더(AI 확장 튜토리얼) 오픈 |
+| `specialblocks` | `/function specialblocks` | 특수 문자 블록 14종(방향 4, 기호 4, 알파벳 A-F)을 실행한 플레이어에게 지급 |
 | `setnpc` | `/function setnpc` | 월드 내 모든 NPC에 다이얼로그 일괄 연결 (`코드호출기`, `수문장`) |
 
 ---

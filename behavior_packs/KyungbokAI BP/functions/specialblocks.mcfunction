@@ -1,0 +1,14 @@
+give @s kyungbokai:arrow_up
+give @s kyungbokai:arrow_down
+give @s kyungbokai:arrow_right
+give @s kyungbokai:arrow_left
+give @s kyungbokai:symbol_question
+give @s kyungbokai:symbol_exclamation
+give @s kyungbokai:symbol_check
+give @s kyungbokai:symbol_cross
+give @s kyungbokai:letter_a
+give @s kyungbokai:letter_b
+give @s kyungbokai:letter_c
+give @s kyungbokai:letter_d
+give @s kyungbokai:letter_e
+give @s kyungbokai:letter_f
