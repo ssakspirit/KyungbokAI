@@ -33,8 +33,7 @@
 | scene_tag | 파일 | 설명 |
 |-----------|------|------|
 | `codebuilder_main` | `dialogue/codebuilder_npc.json` | 코드호출기 NPC의 기본 대화. 버튼 클릭 시 `codebuilder navigate` 실행 |
-| `guard_main` | `dialogue/guard_npc.json` | 수문장 NPC 메인 대화. 광화문 소개 + 활동 안내 |
-| `guard_code` | `dialogue/guard_npc.json` | 수문장 NPC 실행코드 안내. 코드 번호: 1 |
+| `guard_main` | `dialogue/guard_npc.json` | 수문장 NPC 대화. 광화문 소개 + AI 보안 시스템 구축 도움 요청 |
 
 ---
 
