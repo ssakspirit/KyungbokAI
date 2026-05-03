@@ -1,0 +1,10 @@
+give @s kyungbokai:number_1
+give @s kyungbokai:number_2
+give @s kyungbokai:number_3
+give @s kyungbokai:number_4
+give @s kyungbokai:number_5
+give @s kyungbokai:number_6
+give @s kyungbokai:number_7
+give @s kyungbokai:number_8
+give @s kyungbokai:number_9
+give @s kyungbokai:number_10
