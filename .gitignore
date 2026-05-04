@@ -3,3 +3,6 @@ db/
 
 # Minecraft level data backups
 level.dat_old
+
+# Office temporary lock files
+~$*
