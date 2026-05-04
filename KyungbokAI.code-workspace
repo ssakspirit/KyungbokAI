@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../development_behavior_packs/KyungbokAI BP"
+		},
+		{
+			"path": "../../development_resource_packs/KyungbokAI RP"
 		}
 	],
 	"settings": {}
