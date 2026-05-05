@@ -37,7 +37,6 @@
 | `guard_main` | `dialogue/guard_npc.json` | 수문장 NPC 대화. 광화문 소개 + AI 보안 시스템 구축 도움 요청 |
 | `guard_reflect` | `dialogue/guard_npc.json` | 왕의 성찰 ① - AI 저작권 윤리 토론 질문 |
 | `agent_main` | `dialogue/agent_npc.json` | 훈련교관 NPC 대화. 3차시 에이전트 훈련소 소개 + 활동 안내 |
-| `agent_reflect` | `dialogue/agent_npc.json` | 왕의 성찰 ② - AI 에이전트 책임 윤리 토론 질문 |
 
 ---
 
