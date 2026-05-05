@@ -56,7 +56,7 @@
         "npc_46": "textures/entity/npcs/humanitarianism_skins/human_8"
       },
       "geometry": {
-        "default": "geometry.npc"
+        "default": "geometry.humanoid.v1.8"
       },
       "scripts": {
         "animate": [
