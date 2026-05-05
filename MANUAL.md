@@ -1,7 +1,7 @@
 # KyungbokAI 개발 매뉴얼
 
 > 제작: stevecoding  
-> 최종 수정: 2026-05-03 (수문장 NPC 추가)
+> 최종 수정: 2026-05-05 (훈련교관 NPC 추가)
 
 ---
 
@@ -15,7 +15,7 @@
 | `numberblocks` | `/function numberblocks` | 숫자 블록 1~10을 실행한 플레이어에게 지급 |
 | `open_codebuilder` | `/function open_codebuilder` | 실행한 플레이어에게 코드빌더(AI 확장 튜토리얼) 오픈 |
 | `specialblocks` | `/function specialblocks` | 특수 문자 블록 14종(방향 4, 기호 4, 알파벳 A-F)을 실행한 플레이어에게 지급 |
-| `setnpc` | `/function setnpc` | 월드 내 모든 NPC에 다이얼로그 일괄 연결 (`코드호출기`, `수문장`) |
+| `setnpc` | `/function setnpc` | 월드 내 모든 NPC에 다이얼로그 일괄 연결 (`코드호출기`, `수문장`, `훈련교관`) |
 
 ---
 
@@ -24,7 +24,8 @@
 | NPC 이름 | 연결 다이얼로그 | 역할 |
 |----------|----------------|------|
 | `코드호출기` | `codebuilder_main` | 플레이어가 상호작용하면 "불러오기" 버튼으로 코드빌더(AI 확장 튜토리얼) 실행 |
-| `수문장` | `guard_main` | 광화문 소개 + 활동 안내. "실행 코드" 버튼 클릭 시 코드 번호(1) 안내 |
+| `수문장` | `guard_main` | 1~2차시. 광화문 소개 + AI 보안 시스템 구축 도움 요청 |
+| `훈련교관` | `agent_main` | 3차시. 에이전트 훈련소 소개 + 활동 안내 |
 
 ---
 
@@ -35,6 +36,8 @@
 | `codebuilder_main` | `dialogue/codebuilder_npc.json` | 코드호출기 NPC의 기본 대화. 버튼 클릭 시 `codebuilder navigate` 실행 |
 | `guard_main` | `dialogue/guard_npc.json` | 수문장 NPC 대화. 광화문 소개 + AI 보안 시스템 구축 도움 요청 |
 | `guard_reflect` | `dialogue/guard_npc.json` | 왕의 성찰 ① - AI 저작권 윤리 토론 질문 |
+| `agent_main` | `dialogue/agent_npc.json` | 훈련교관 NPC 대화. 3차시 에이전트 훈련소 소개 + 활동 안내 |
+| `agent_reflect` | `dialogue/agent_npc.json` | 왕의 성찰 ② - AI 에이전트 책임 윤리 토론 질문 |
 
 ---
 

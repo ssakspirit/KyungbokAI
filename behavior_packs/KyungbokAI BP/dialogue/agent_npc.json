@@ -1,0 +1,41 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "agent_main",
+                "npc_name": "훈련교관",
+                "text": "§4[3차시]\n§0용사여, 에이전트 훈련소에\n오신 것을 §6환영§0하오!\n\n나는 이 훈련소의 §6교관§0이오.\n§6경복궁§0을 지키려면\n사람만으로는 부족하오.\n\n우리에게는 §3AI 에이전트§0라는\n든든한 파트너가 필요하오!\n\n에이전트란, 나를 대신해\n스스로 움직이며 임무를 수행하는\n§3인공지능 군사§0라오.\n\n§6▶ 활동 1§0\n에이전트를 직접 조종하여\n명령을 내리는 법을 익히시오.\n\n§6▶ 활동 2§0\n팀원과 함께 막사를 건축하고\n에이전트가 막사 주변을 순찰하는\n시스템을 코드로 작성하시오!\n\n§8먼저 왕의 성찰을 읽고\n임무를 시작하시오.",
+                "buttons": [
+                    {
+                        "name": "왕의 성찰 읽기",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"훈련교관\"] @initiator agent_reflect"
+                        ]
+                    },
+                    {
+                        "name": "닫기",
+                        "commands": []
+                    }
+                ]
+            },
+            {
+                "scene_tag": "agent_reflect",
+                "npc_name": "훈련교관",
+                "text": "§6§l[왕의 성찰 ②]§r\n\n§0훈련을 시작하기 전,\n왕께서 성찰을 하나 내리셨소.\n\n§3AI 에이전트가 순찰 중 실수를 해서\n문제가 생겼다면,\n그 책임은 누구에게 있는가?§0\n\n코드를 작성한 내 책임인가?\n\n아니면 AI 기술을 만든\n개발사의 책임인가?\n\n에이전트에게 '알아서 해'라고\n명령하고 내버려 두는 것은\n과연 괜찮은 일인가?\n\n§8잠시 생각해 보고\n임무를 시작하시오.",
+                "buttons": [
+                    {
+                        "name": "생각해볼게요!",
+                        "commands": []
+                    },
+                    {
+                        "name": "← 돌아가기",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"훈련교관\"] @initiator agent_main"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
