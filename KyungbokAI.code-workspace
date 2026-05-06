@@ -8,6 +8,12 @@
 		},
 		{
 			"path": "../../development_resource_packs/KyungbokAI RP"
+		},
+		{
+			"path": "../../behavior_packs/NPCB+Expan"
+		},
+		{
+			"path": "../../resource_packs/NPC+Expans"
 		}
 	],
 	"settings": {}
