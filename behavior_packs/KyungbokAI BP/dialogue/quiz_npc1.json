@@ -1,0 +1,63 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "quiz1_main",
+                "npc_name": "AI윤리 퀴즈1",
+                "text": "§6§l[AI 윤리 퀴즈 1]\n\n§0통과하려면 이 문제를\n맞혀야 하오!\n\n§3AI가 알려준 정보가\n사실인지 확인하는\n가장 좋은 방법은?§0\n\n① 그냥 믿고 사용한다\n② 다른 자료로 직접 확인한다\n③ AI는 항상 옳아서 확인 불필요\n④ 그냥 친구에게 묻는다",
+                "buttons": [
+                    {
+                        "name": "① 그냥 믿고 사용한다",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"AI윤리 퀴즈1\"] @initiator quiz1_wrong"
+                        ]
+                    },
+                    {
+                        "name": "② 다른 자료로 직접 확인",
+                        "commands": [
+                            "/effect @initiator speed 5 11",
+                            "/dialogue open @e[type=npc,name=\"AI윤리 퀴즈1\"] @initiator quiz1_correct"
+                        ]
+                    },
+                    {
+                        "name": "③ 확인할 필요 없다",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"AI윤리 퀴즈1\"] @initiator quiz1_wrong"
+                        ]
+                    },
+                    {
+                        "name": "④ 친구에게 묻는다",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"AI윤리 퀴즈1\"] @initiator quiz1_wrong"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "quiz1_correct",
+                "npc_name": "AI윤리 퀴즈1",
+                "text": "§a§l[정답!]§r\n\n§0훌륭하오, 용사여!\n\nAI가 제공하는 정보는\n항상 정확하지 않을 수 있소.\n\n§3스스로 확인하고 검증하는 자세,\n그것이 진정한 AI 활용법이오.§0\n\n보상을 받고 계속하시오!",
+                "buttons": [
+                    {
+                        "name": "앞으로 나아가겠소!",
+                        "commands": []
+                    }
+                ]
+            },
+            {
+                "scene_tag": "quiz1_wrong",
+                "npc_name": "AI윤리 퀴즈1",
+                "text": "§4§l[오답]§r\n\n§0아쉽소, 용사여.\n\nAI가 틀린 정보를 제공하는\n경우가 종종 있소.\n\n§3한 번 더 생각해 보시오.§0",
+                "buttons": [
+                    {
+                        "name": "← 다시 도전!",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"AI윤리 퀴즈1\"] @initiator quiz1_main"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

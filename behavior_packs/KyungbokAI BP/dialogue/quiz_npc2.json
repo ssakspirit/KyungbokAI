@@ -1,0 +1,63 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "quiz2_main",
+                "npc_name": "AI윤리 문제2",
+                "text": "§6§l[AI 윤리 문제 2]\n\n§0두 번째 관문이오!\n\n§3AI 챗봇을 사용할 때\n절대 입력해서는\n안 되는 정보는?§0\n\n① 오늘의 날씨 질문\n② 내가 좋아하는 동물\n③ 내 이름과 집 주소\n④ 수학 문제 풀기 요청",
+                "buttons": [
+                    {
+                        "name": "① 오늘의 날씨 질문",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"AI윤리 문제2\"] @initiator quiz2_wrong"
+                        ]
+                    },
+                    {
+                        "name": "② 좋아하는 동물",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"AI윤리 문제2\"] @initiator quiz2_wrong"
+                        ]
+                    },
+                    {
+                        "name": "③ 내 이름과 집 주소",
+                        "commands": [
+                            "/give @initiator leather_boots 1",
+                            "/dialogue open @e[type=npc,name=\"AI윤리 문제2\"] @initiator quiz2_correct"
+                        ]
+                    },
+                    {
+                        "name": "④ 수학 문제 풀기 요청",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"AI윤리 문제2\"] @initiator quiz2_wrong"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "quiz2_correct",
+                "npc_name": "AI윤리 문제2",
+                "text": "§a§l[정답!]§r\n\n§0정확하오, 용사여!\n\n이름, 주소, 전화번호 같은\n개인 정보는 AI에게 알려주면\n유출될 위험이 있소.\n\n§3내 정보는 스스로 지키는 것,\n그것이 디지털 시대의\n생존 기술이오.§0\n\n보상을 받고 계속하시오!",
+                "buttons": [
+                    {
+                        "name": "앞으로 나아가겠소!",
+                        "commands": []
+                    }
+                ]
+            },
+            {
+                "scene_tag": "quiz2_wrong",
+                "npc_name": "AI윤리 문제2",
+                "text": "§4§l[오답]§r\n\n§0아쉽소, 용사여.\n\nAI에게 어떤 정보를\n알려줘도 되는지,\n어떤 정보는 위험한지\n다시 생각해 보시오.\n\n§3개인 정보 보호가\n핵심이오.§0",
+                "buttons": [
+                    {
+                        "name": "← 다시 도전!",
+                        "commands": [
+                            "/dialogue open @e[type=npc,name=\"AI윤리 문제2\"] @initiator quiz2_main"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
