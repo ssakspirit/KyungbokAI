@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp -r \"c:\\\\Users\\\\ssaks\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.MinecraftEducationEdition_8wekyb3d8bbwe\\\\LocalState\\\\games\\\\com.mojang\\\\behavior_packs\\\\NPCB+Expan\" \"c:\\\\Users\\\\ssaks\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.MinecraftEducationEdition_8wekyb3d8bbwe\\\\LocalState\\\\games\\\\com.mojang\\\\minecraftWorlds\\\\HcdnJ4x3V0A=\\\\behavior_packs\\\\NPCB+Expan\")",
+      "Bash(cp -r \"c:\\\\Users\\\\ssaks\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.MinecraftEducationEdition_8wekyb3d8bbwe\\\\LocalState\\\\games\\\\com.mojang\\\\resource_packs\\\\NPC+Expans\" \"c:\\\\Users\\\\ssaks\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.MinecraftEducationEdition_8wekyb3d8bbwe\\\\LocalState\\\\games\\\\com.mojang\\\\minecraftWorlds\\\\HcdnJ4x3V0A=\\\\resource_packs\\\\NPC+Expans\")"
+    ]
+  }
+}
