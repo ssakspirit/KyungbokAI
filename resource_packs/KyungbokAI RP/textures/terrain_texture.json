@@ -34,6 +34,21 @@
         "kyungbokai_number_10": {
             "textures": "textures/blocks/number_10"
         },
+        "kyungbokai_number_11": {
+            "textures": "textures/blocks/number_11"
+        },
+        "kyungbokai_number_12": {
+            "textures": "textures/blocks/number_12"
+        },
+        "kyungbokai_number_13": {
+            "textures": "textures/blocks/number_13"
+        },
+        "kyungbokai_number_14": {
+            "textures": "textures/blocks/number_14"
+        },
+        "kyungbokai_number_15": {
+            "textures": "textures/blocks/number_15"
+        },
         "kyungbokai_arrow_up": {
             "textures": "textures/blocks/arrow_up"
         },

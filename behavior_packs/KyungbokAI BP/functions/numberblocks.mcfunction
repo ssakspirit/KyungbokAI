@@ -8,3 +8,8 @@ give @s kyungbokai:number_7
 give @s kyungbokai:number_8
 give @s kyungbokai:number_9
 give @s kyungbokai:number_10
+give @s kyungbokai:number_11
+give @s kyungbokai:number_12
+give @s kyungbokai:number_13
+give @s kyungbokai:number_14
+give @s kyungbokai:number_15
